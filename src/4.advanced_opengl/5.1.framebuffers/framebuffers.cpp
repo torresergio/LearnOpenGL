@@ -222,6 +222,7 @@ int main()
 
     // render loop
     // -----------
+    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
     while (!glfwWindowShouldClose(window))
     {
         // per-frame time logic

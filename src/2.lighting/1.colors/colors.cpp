@@ -199,7 +199,7 @@ int main()
         model = glm::scale(model, glm::vec3(0.2f)); // a smaller cube
         lampShader.setMat4("model", model);
 
-        glBindVertexArray(lightVAO);
+        //glBindVertexArray(lightVAO);
         glDrawArrays(GL_TRIANGLES, 0, 36);
 
 
